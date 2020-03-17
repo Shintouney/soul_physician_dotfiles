@@ -157,7 +157,7 @@ augroup END
 
 hi Normal ctermbg=none
 
-let g:airline_theme='wombat'
+"let g:airline_theme='wombat'
 "let g:airline_theme='badwolf'
 
 syntax enable
