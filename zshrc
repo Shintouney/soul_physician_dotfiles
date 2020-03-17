@@ -65,29 +65,8 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 alias tmux='tmux -2'
 
-
-#source `which tmuxinator.zsh`
-source ~/.nvm/nvm.sh
-#set -o vi
-#bindkey -v
-#bindkey "\C-r" history-incremental-pattern-search-backward
-#bindkey "^[[A" history-beginning-search-backward
-#bindkey "^[[B" history-beginning-search-forward
-
-#autoload -U up-line-or-beginning-search
-#autoload -U down-line-or-beginning-search
-
-#[[ -n "${key[Up]}" ]] && bindkey "${key[Up]}" up-line-or-beginning-search
-#[[ -n "${key[Down]}" ]] && bindkey "${key[Down]}" down-line-or-beginning-search
-
-#[[ -n "${key[Up]}"      ]] && bindkey  "${key[Up]}"      history-beginning-search-backward
-#[[ -n "${key[Down]}"    ]] && bindkey  "${key[Down]}"    history-beginning-search-forward
-#bindkey "^[[A" up-line-or-search
-#bindkey "^[[B" up-line-or-search
 alias a='TERM=xterm-256color ranger'
 alias 'q'='exit'
-
-
 
 source $ZSH/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source $ZSH/custom/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
@@ -105,10 +84,7 @@ alias t="tmuxifier s"
 alias beb="bundle exec middleman build"
 alias besy="bundle exec middleman s3_sync"
 alias bes="bundle exec middleman server -p"
-
 alias bnd="bundle exec middleman build && bundle exec middleman s3_sync"
-
-
 
 source $ZSH/custom/zsh-history-substring-search/zsh-history-substring-search.zsh
 
@@ -130,7 +106,7 @@ bindkey "☆" history-substring-search-down
 
 
 # Setup zsh-autosuggestions
-source ~/.zsh-autosuggestions/autosuggestions.zsh
+source ~/soul_physician_dotfiles/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Enable autosuggestions automatically
 zle-line-init() {
