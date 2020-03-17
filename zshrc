@@ -64,8 +64,7 @@ alias tmux='tmux -2'
 alias a='TERM=xterm-256color ranger'
 alias 'q'='exit'
 
-source $ZSH/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source $ZSH/custom/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh
+source ~/soul_physician_dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 test -e ~/.dircolors && eval `dircolors -b ~/.dircolors`
@@ -105,9 +104,6 @@ bindkey "☆" history-substring-search-down
 source ~/soul_physician_dotfiles/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Enable autosuggestions automatically
-zle-line-init() {
-    zle autosuggest-start
-}
 zle -N zle-line-init
 # Accept suggestions without leaving insert mode
 bindkey '^f' vi-forward-word
