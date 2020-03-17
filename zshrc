@@ -44,10 +44,6 @@ DEFAULT_USER='ranska'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-#plugins=(git safe-paste)
-#plugins=(git)
-#plugins=(git vi-mode zsh-syntax-highlighting history-substring-search)
-#plugins=(git vi-mode history-substring-search)
 
 plugins=(git git-flow vi-mode )
 source $ZSH/oh-my-zsh.sh
@@ -86,7 +82,7 @@ alias besy="bundle exec middleman s3_sync"
 alias bes="bundle exec middleman server -p"
 alias bnd="bundle exec middleman build && bundle exec middleman s3_sync"
 
-source $ZSH/custom/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/soul_physician_dotfiles/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # bind k and j for VI mode
 bindkey -M vicmd 'k' history-substring-search-up
