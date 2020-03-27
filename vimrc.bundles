@@ -107,7 +107,6 @@ Plugin 'ap/vim-css-color'
 " search pattern
 Plugin 'josuecau/ctrlsf.vim'
 Plugin 'tpope/vim-projectionist'
-Plugin 'unegunn/vim-emoji'
 
 Plugin 'itchyny/calendar.vim'
 Plugin 'szw/vim-tags'
