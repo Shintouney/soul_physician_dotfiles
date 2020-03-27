@@ -119,6 +119,7 @@ augroup more_ruby_filetype
   autocmd BufRead,BufNewFile *.arb set filetype=Ruby
   autocmd BufNewFile,BufRead Gemfile set filetype=ruby
   autocmd BufNewFile,BufRead Gemfile.develop set filetype=ruby
+  autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
   " TODO didn't work
   autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee
 augroup END
@@ -242,12 +243,7 @@ silent! if emoji#available()
   let g:gitgutter_sign_modified = emoji#for('small_orange_diamond')
   let g:gitgutter_sign_removed = emoji#for('small_red_triangle')
   let g:gitgutter_sign_modified_removed = emoji#for('collision')
-  set completefunc=emoji#complete
 endif
-"augroup emoji_complete
-"  autocmd!
-"  autocmd FileType markdown setlocal completefunc=emoji#complete
-"augroup END
 
 " supprime le | dans la bar de vertical split
 set fillchars+=vert:.

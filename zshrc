@@ -54,7 +54,6 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin'
 export PATH=$PATH:$HOME/tool_kit
 
-eval "$(rbenv init -)"
 
 export EDITOR='vim'
 export LC_CTYPE=en_US.UTF-8
@@ -132,11 +131,6 @@ export PATH="$HOME/clients/finexkap/kerl_bin/:$PATH"
 
 # Docker config
 
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/ranska/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
-
-# tmux alias
 alias tk="tmux kill-session -t"
 
 alias gbpurge='git branch --merged | grep -v "\*" | grep -v "master" | grep -v "develop" | grep -v "staging" | xargs -n 1 git branch -d'
@@ -146,4 +140,7 @@ alias gcld='gcd && gl origin develop'
 
 alias gcal="vim -c 'colorscheme pablo' -c 'Calendar'"
 alias gflfp="gfl feature pull origin"
+alias overmind="./bin/overmind-v2.1.0-linux-386"
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
