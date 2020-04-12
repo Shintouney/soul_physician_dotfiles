@@ -64,24 +64,11 @@ augroup vimrcEx
   autocmd!
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
-  " When editing a file, always jump to the last known cursor
-  " position.
-  " Don't do it for commit messages, when the position is
-  " invalid, or when
-  " inside an event handler (happens when dropping a file on
-  " gvim).
   autocmd BufReadPost *
         \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
         \   exe "normal g`\"" |
         \ endif
-  " Cucumber navigation commands
-"  autocmd User Rails Rnavcommand step features/step_definitions -glob=**/* -suffix=_steps.rb
-"  autocmd User Rails Rnavcommand config config -glob=**/* -suffix=.rb -default=routes
-  " Set syntax highlighting for specific file types
   autocmd BufRead,BufNewFile *.md set filetype=markdown
-  " Enable spellchecking for Markdown
-  "autocmd BufRead,BufNewFile *.md setlocal spell
-  " Automatically wrap at 80 characters for Markdown
   autocmd BufRead,BufNewFile *.md setlocal textwidth=80
 augroup END
 
@@ -92,20 +79,6 @@ set expandtab
 
 " Display extra whitespace
 set nolist listchars=tab:»·,trail:·
-
-" Use The Silver Searcher
-"    https://github.com/ggreer/the_silver_searcher
-"     if executable('ag')
-" Use Ag over Grep
-"  et grepprg=ag\ --nogroup\ --nocolor
-"
-    " Use ag in CtrlP for listing files. Lightning
-"   fast and respects .gitignore
-"     let g:ctrlp_user_command = 'ag %s -l
-"     --nocolor -g ""'
-"endif
-
-" Numbers
 set number
 set numberwidth=4
 "nnoremap <Left> :echoe "Use h"<CR>

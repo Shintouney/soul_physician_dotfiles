@@ -137,6 +137,7 @@ alias gbpurge='git branch --merged | grep -v "\*" | grep -v "master" | grep -v "
 
 alias gprac='ga . && gc && gp && pullr -i develop -I origin'
 alias gcld='gcd && gl origin develop'
+alias gclm='gcd && gl origin master'
 
 alias gcal="vim -c 'colorscheme pablo' -c 'Calendar'"
 alias gflfp="gfl feature pull origin"
