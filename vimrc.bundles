@@ -115,6 +115,7 @@ Plugin 'shaoqiu/ctrlp-tags.git'
 Plugin 'shaoqiu/vim-tools.git'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'jneen/ragel.vim'
+Plugin 'StanAngeloff/php.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

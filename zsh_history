@@ -10087,3 +10087,8 @@ gem install spree
 : 1585326474:0;vagrant provision
 : 1585326513:0;cd
 : 1585326521:0;cp .zsh_history soul_physician_dotfiles/zsh_history
+: 1587398607:0;ls
+: 1587398612:0;sudo apt-get install tmuxifier
+: 1587398637:0;git clone git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
+: 1587398643:0;git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
+: 1587398650:0;exec zsh
