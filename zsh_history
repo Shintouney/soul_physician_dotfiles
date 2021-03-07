@@ -10092,3 +10092,5 @@ gem install spree
 : 1587398637:0;git clone git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 : 1587398643:0;git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 : 1587398650:0;exec zsh
+: 1615153101:0;ls -la
+: 1615153102:0;exec zsh
