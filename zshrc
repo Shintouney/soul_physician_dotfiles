@@ -142,6 +142,6 @@ alias gclm='gcd && gl origin master'
 alias gcal="vim -c 'colorscheme pablo' -c 'Calendar'"
 alias gflfp="gfl feature pull origin"
 alias overmind="./bin/overmind-v2.1.0-linux-386"
-
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export APPNAME_DATABASE_PASSWORD="riveton"

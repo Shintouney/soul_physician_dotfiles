@@ -261,3 +261,4 @@ let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 
 "echom "('.') fait le ou ne le fait pas mais il n'y pas d'essais"
+let g:snipMate = { 'snippet_version' : 1 }

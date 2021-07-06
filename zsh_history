@@ -10094,3 +10094,5 @@ gem install spree
 : 1587398650:0;exec zsh
 : 1615153101:0;ls -la
 : 1615153102:0;exec zsh
+: 1615555184:0;ls -la
+: 1615555188:0;tmux
