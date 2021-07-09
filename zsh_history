@@ -10096,3 +10096,6 @@ gem install spree
 : 1615153102:0;exec zsh
 : 1615555184:0;ls -la
 : 1615555188:0;tmux
+: 1625861333:0;cd ~/soul_physician_dotfiles
+: 1625861335:0;gst
+: 1625861336:0;ga .
