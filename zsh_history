@@ -10099,3 +10099,46 @@ gem install spree
 : 1625861333:0;cd ~/soul_physician_dotfiles
 : 1625861335:0;gst
 : 1625861336:0;ga .
+: 1625861345:0;gc -m "update zsh history"
+: 1625861348:0;gp origin master
+: 1625861379:0;ifconfig | egrep "([0-9]{1,3}\.){3}[0-9]{1,3}|$"
+: 1625914332:0;cd
+: 1625914338:0;cd ~/learn_ruby
+: 1625914338:0;ls
+: 1625914342:0;cd grafikart_rails
+: 1625914342:0;ls
+: 1625914345:0;cd grafikart
+: 1625914346:0;ls
+: 1625914349:0;vi app/controllers/posts_controller.rb
+: 1625916563:0;ssh soulphysician@voguemerry
+: 1625944073:0;ping meltingforce.fr
+: 1625944317:0;sudo apt-get update
+: 1625944932:0;cd
+: 1625944933:0;ls
+: 1625944969:0;git clone git@github.com:Shintouney/learn_javascript.git
+: 1625944974:0;cd learn_javascript
+: 1625944975:0;ls -la
+: 1625945087:0;mkdir chapter_1
+: 1625945090:0;cd chapter_1
+: 1625945312:0;ls
+: 1625945324:0;touch index.html
+: 1625945325:0;vi index.html
+: 1625945616:0;ls ~/.vimrc.bundles
+: 1625945618:0;vi ~/.vimrc.bundles
+: 1625945660:0;vi index.html
+: 1625993049:0;ssh soulphysician@voguemerry
+: 1626012511:0;vi ~/.vimrc.bundles
+: 1626020169:0;rbenv --list
+: 1626020173:0;rbenv
+: 1626020178:0;rbenv versions
+: 1626020179:0;rbenv versions --list
+: 1626021370:0;cd
+: 1626021372:0;cd learn_ruby
+: 1626021373:0;ls
+: 1626021378:0;vi test.rb
+: 1626021387:0;ls
+: 1626021395:0;cd learn_ruby_the_hardway
+: 1626021395:0;ls
+: 1626021399:0;grep -rnw . -e "for" .
+: 1626021408:0;vi ex32.rb
+: 1626057941:0;ssh soulphysician@voguemerry

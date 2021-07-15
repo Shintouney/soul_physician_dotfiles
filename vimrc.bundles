@@ -116,6 +116,7 @@ Plugin 'shaoqiu/vim-tools.git'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'jneen/ragel.vim'
 Plugin 'StanAngeloff/php.vim'
+Plugin 'vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
